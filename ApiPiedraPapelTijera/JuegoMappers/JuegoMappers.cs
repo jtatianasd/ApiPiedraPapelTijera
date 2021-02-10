@@ -9,7 +9,7 @@ namespace ApiPiedraPapelTijera.JuegoMappers
 		public JuegoMappers()
 		{
 			CreateMap<Jugador, JugadorDto>().ReverseMap();
-			CreateMap<Partida, PartidaDto>().ReverseMap();
+			//CreateMap<Partida, PartidaDto>().ReverseMap();
 
 		}
 	}

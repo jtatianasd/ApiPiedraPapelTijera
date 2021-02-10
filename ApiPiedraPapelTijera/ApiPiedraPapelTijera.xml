@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiPiedraPapelTijera</name>
+    </assembly>
+    <members>
+        <member name="M:ApiPiedraPapelTijera.Controllers.JugadoresController.GetJugadores">
+            <summary>
+            Obtener todas las categorias
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
