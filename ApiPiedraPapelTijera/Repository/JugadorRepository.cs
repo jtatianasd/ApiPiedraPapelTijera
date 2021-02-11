@@ -40,8 +40,12 @@ namespace ApiPiedraPapelTijera.Repository
 			return valor;
 		}
 
+		public bool ExisteJugador(int JugadorId)
+		{
+			return _bd.Jugador.Any(c => c.Id == JugadorId);
+		}
 
-		public Jugador GetJugador(string JugadorId)
+		public Jugador GetJugador(int JugadorId)
 		{
 			return _bd.Jugador.FirstOrDefault(c => c.Id == JugadorId);
 		}

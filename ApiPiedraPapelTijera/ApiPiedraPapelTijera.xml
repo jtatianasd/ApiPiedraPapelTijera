@@ -6,8 +6,37 @@
     <members>
         <member name="M:ApiPiedraPapelTijera.Controllers.JugadoresController.GetJugadores">
             <summary>
-            Obtener todas las categorias
+            Obtener todos los jugadores
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPiedraPapelTijera.Controllers.JugadoresController.GetJugador(System.Int32)">
+             <summary>
+            Obtener un jugador individual
+             </summary>
+             <param name="jugadorId"> </param>
+             <returns></returns>
+        </member>
+        <member name="M:ApiPiedraPapelTijera.Controllers.JugadoresController.CrearJugador(ApiPiedraPapelTijera.Models.DTO.JugadorDto)">
+            <summary>
+            Crear una nueva jugador
+            </summary>
+            <param name="JugadorDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPiedraPapelTijera.Controllers.JugadoresController.ActualizarJugador(System.Int32,ApiPiedraPapelTijera.Models.DTO.JugadorDto)">
+            <summary>
+            Actualizar una jugador existente
+            </summary>
+            <param name="jugadorId"></param>
+            <param name="JugadorDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPiedraPapelTijera.Controllers.JugadoresController.BorrarJugador(System.Int32)">
+            <summary>
+            Borrar una jugador existente
+            </summary>
+            <param name="jugadorId"></param>
             <returns></returns>
         </member>
     </members>

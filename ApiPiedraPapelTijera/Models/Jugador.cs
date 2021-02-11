@@ -6,7 +6,10 @@ namespace ApiPiedraPapelTijera.Models
 	public class Jugador
 	{
 		[Key]
-		public string Id { get; set; }
+		public int Id { get; set; }
 		public string Nombre { get; set; }
+		public enum TipoJugador { Jugador1, Jugador2}
+		public TipoJugador Tipo { get; set; }
+
 	}
 }

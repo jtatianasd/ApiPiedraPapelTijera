@@ -15,5 +15,6 @@ namespace ApiPiedraPapelTijera.Data
 		}
 		public DbSet<Jugador> Jugador { get; set; }
 		public DbSet<Partida> Partida { get; set; }
+		public DbSet<Ronda> Ronda { get; set; }
 	}
 }
